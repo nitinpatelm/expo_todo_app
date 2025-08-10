@@ -1,95 +1,29 @@
 📱 TaskSync - Real-Time To-Do App
 A cross-platform task management app built with React Native, Expo, and Convex
 
-https://via.placeholder.com/800x500?text=TaskSync+Screenshots
 
-✨ Features
-📝 Tasks Management
-✅ Add, edit, and delete tasks
+A feature-rich, cross-platform task management application built with React Native, Expo, and Convex that syncs in real-time across all your devices.
 
-✔️ Mark tasks as complete/incomplete
+## ✨ Key Features
 
-📊 Real-time progress tracking
+### 📝 Core Task Management
+- ✅ **Add tasks** with titles, descriptions, and due dates
+- ✔️ **Mark complete/incomplete** with intuitive swipe gestures
+- ✏️ **Edit existing tasks** with inline editing
+- 🗑️ **Delete tasks** with undo functionality
+- 📊 **Progress tracking** with visual indicators
 
-⚡ Instant sync across all devices
+### ⚙️ Smart Settings
+- 🌓 **Dark/Light mode** with system preference detection
+- 📊 **Advanced statistics** with completion trends
+- 🔔 **Custom notifications** for due tasks
+- ⚠️ **Danger zone** with confirmation dialogs
+- 🛡️ **Data backup** options
 
-⚙️ Settings & Customization
-🌙 Dark/Light mode toggle
-
-📈 Task statistics dashboard
-
-🔔 Notification preferences
-
-🗑️ Danger zone (clear all tasks)
-
-🔄 Real-Time Sync
-Powered by Convex backend
-
-Instant updates across all connected devices
-
-Offline-first design
-
-🛠️ Technologies Used
-React Native (Cross-platform mobile development)
-
-Expo (Rapid development & testing)
-
-Convex (Real-time database)
-
-React Navigation (Tab and stack navigation)
-
-NativeWind (Tailwind CSS for React Native)
-
-🚀 Getting Started
-Prerequisites
-Node.js (v18+)
-
-Expo CLI (npm install -g expo-cli)
-
-Convex account (free tier available)
-
-Installation
-Clone the repository
-
-bash
-git clone https://github.com/yourusername/tasksync.git
-cd tasksync
-Install dependencies
-
-bash
-npm install
-Set up environment variables
-Create a .env file in the root directory:
-
-text
-CONVEX_DEPLOYMENT=your_convex_deployment
-EXPO_PUBLIC_CONVEX_URL=your_convex_url
-Start the development server
-
-bash
-npx expo start
-Run Convex in a separate terminal
-
-bash
-npx convex dev
-📱 Running the App
-iOS Simulator: Press i in the Expo terminal
-
-Android Emulator: Press a in the Expo terminal
-
-Physical Device: Scan QR code with Expo Go app
-
-🧑‍💻 Project Structure
-text
-tasksync/
-├── app/                  # Main app components
-│   ├── (tabs)/           # Tab navigation screens
-│   ├── convex/           # Convex functions
-│   ├── components/       # Reusable components
-│   └── hooks/            # Theme and config
-├── assets/               # Images and fonts and styles
-└── .env                  # Environment variables
-🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+### 🔄 Real-Time Engine
+- ⚡ **Instant sync** across all connected devices
+- 🌐 **Offline-first** design with conflict resolution
+- 🔄 **Optimistic UI** for seamless experience
+- 🔒 **End-to-end encryption** (optional)
 
 Happy task managing! ✨
