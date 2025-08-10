@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+📱 TaskSync - Real-Time To-Do App
+A cross-platform task management app built with React Native, Expo, and Convex
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+https://via.placeholder.com/800x500?text=TaskSync+Screenshots
 
-## Get started
+✨ Features
+📝 Tasks Management
+✅ Add, edit, and delete tasks
 
-1. Install dependencies
+✔️ Mark tasks as complete/incomplete
 
-   ```bash
-   npm install
-   ```
+📊 Real-time progress tracking
 
-2. Start the app
+⚡ Instant sync across all devices
 
-   ```bash
-   npx expo start
-   ```
+⚙️ Settings & Customization
+🌙 Dark/Light mode toggle
 
-In the output, you'll find options to open the app in a
+📈 Task statistics dashboard
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🔔 Notification preferences
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🗑️ Danger zone (clear all tasks)
 
-## Get a fresh project
+🔄 Real-Time Sync
+Powered by Convex backend
 
-When you're ready, run:
+Instant updates across all connected devices
 
-```bash
-npm run reset-project
-```
+Offline-first design
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🛠️ Technologies Used
+React Native (Cross-platform mobile development)
 
-## Learn more
+Expo (Rapid development & testing)
 
-To learn more about developing your project with Expo, look at the following resources:
+Convex (Real-time database)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+React Navigation (Tab and stack navigation)
 
-## Join the community
+NativeWind (Tailwind CSS for React Native)
 
-Join our community of developers creating universal apps.
+🚀 Getting Started
+Prerequisites
+Node.js (v18+)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo CLI (npm install -g expo-cli)
+
+Convex account (free tier available)
+
+Installation
+Clone the repository
+
+bash
+git clone https://github.com/yourusername/tasksync.git
+cd tasksync
+Install dependencies
+
+bash
+npm install
+Set up environment variables
+Create a .env file in the root directory:
+
+text
+CONVEX_DEPLOYMENT=your_convex_deployment
+EXPO_PUBLIC_CONVEX_URL=your_convex_url
+Start the development server
+
+bash
+npx expo start
+Run Convex in a separate terminal
+
+bash
+npx convex dev
+📱 Running the App
+iOS Simulator: Press i in the Expo terminal
+
+Android Emulator: Press a in the Expo terminal
+
+Physical Device: Scan QR code with Expo Go app
+
+🧑‍💻 Project Structure
+text
+tasksync/
+├── app/                  # Main app components
+│   ├── (tabs)/           # Tab navigation screens
+│   ├── convex/           # Convex functions
+│   ├── components/       # Reusable components
+│   └── hooks/            # Theme and config
+├── assets/               # Images and fonts and styles
+└── .env                  # Environment variables
+🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+Happy task managing! ✨
